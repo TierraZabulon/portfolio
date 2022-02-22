@@ -60,12 +60,20 @@ section {
 
 .skills {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  padding-top: 15rem;
+  flex-direction: column;
+  padding-top: 5rem;
+  border: 1px solid red;
+  background-color: gray;
+}
+.mySkills {
+  padding: 2rem 15rem 0rem 8rem;
 }
 .projects {
   display: flex;
   justify-content: space-around;
+  padding-top: 10rem;
 }
 .myProjects {
   border: 2px solid green;
