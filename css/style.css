@@ -1,0 +1,51 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.contentsidebar {
+  display: flex;
+  flex-wrap: wrap;
+}
+nav ul {
+  list-style: none;
+  font-size: 3rem;
+}
+.contentsidebar > *:nth-child(1) {
+  flex: 1 1 30%;
+  background-color: aquamarine;
+}
+
+.contentsidebar > *:nth-child(2) {
+  flex: 1 1 70%;
+  background-color: antiquewhite;
+}
+.col-about {
+  display: inline-flex;
+  flex-direction: column;
+}
+.col {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+section {
+  flex-basis: 100%;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15rem;
+}
+.projects {
+  display: flex;
+  justify-content: space-around;
+}
+.myProjects {
+  border: 2px solid green;
+  height: 10rem;
+  width: 10rem;
+}
