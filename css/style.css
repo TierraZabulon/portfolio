@@ -11,16 +11,27 @@ html {
 }
 nav ul {
   list-style: none;
-  font-size: 3rem;
+  font-size: 2rem;
 }
+
+nav li {
+  padding: 1rem;
+  color: black;
+}
+.col nav img {
+  border-radius: 50%;
+  height: 10rem;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
 .contentsidebar > *:nth-child(1) {
-  flex: 1 1 30%;
-  background-color: aquamarine;
+  flex: 1 1 20%;
+  justify-content: center;
 }
 
 .contentsidebar > *:nth-child(2) {
-  flex: 1 1 70%;
-  background-color: antiquewhite;
+  flex: 1 1 80%;
 }
 .col-about {
   display: inline-flex;
@@ -28,8 +39,20 @@ nav ul {
 }
 .col {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-wrap: wrap;
+}
+.aboutme {
+  padding: 7rem 0rem 10rem 10rem;
+}
+
+.aboutme button {
+  padding: 1.5rem;
+  width: 14rem;
+  border-radius: 4%;
+}
+.aboutme h1 {
+  font-size: 7rem;
 }
 section {
   flex-basis: 100%;

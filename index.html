@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <title>Tierra Zabulon- Front End Developer</title>
+    <script
+      src="https://kit.fontawesome.com/e5d84870ea.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- <main class="mainContainer">
@@ -63,29 +67,39 @@
     <div class="contentflow">
       <h1 class="title"></h1>
       <div class="contentsidebar">
-        <div class="col">
+        <div class="col pt-5 bg-info">
           <nav>
-            <img src="" alt="" />
+            <img src="/resources/urban-user-2.png" class="nav-img" alt="" />
             <ul>
               <li>About Me</li>
               <li>Portfolio</li>
               <li>Resume</li>
               <li>Contact</li>
+              <li class="">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+              </li>
             </ul>
           </nav>
         </div>
-        <div class="col">
+        <div class="col bg-light">
           <div class="col-about">
-            <h1>Tierra Zabulon</h1>
-            <p>I'm a front-end developer with a passion for learning</p>
-            <button>View Portfolio</button>
-            <button>View Resume</button>
+            <div class="aboutme">
+              <h1 class="text-dark">Tierra Zabulon</h1>
+              <h3 id="developer">Front-End Developer</h3>
+              <p>I'm a front-end developer with a passion for learning</p>
+              <button class="text-dark btn btn-outline-info">
+                View Portfolio
+              </button>
+              <button class="text-dark btn btn-outline-info">
+                View Resume
+              </button>
+            </div>
           </div>
-          <div class="col-about">
+          <!-- <div class="col-about">
             <p>I'm a front-end developer with a passion for learning</p>
-            <button>View Portfolio</button>
-            <button>View Resume</button>
-          </div>
+            <img src="/resources/urban-yoga-girl-with-notebook.png" alt="" />
+          </div> -->
           <section class="skills">
             <div class="mySkills">
               <h4>HTML</h4>
@@ -115,5 +129,7 @@
         </div>
       </div>
     </div>
+
+    <script src="/js/main.js"></script>
   </body>
 </html>
