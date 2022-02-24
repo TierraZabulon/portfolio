@@ -44,7 +44,7 @@ nav li {
   flex-wrap: wrap;
 }
 .aboutme {
-  padding: 7rem 0rem 10rem 0rem;
+  padding: 10rem 0rem 20rem 0rem;
   text-align: center;
 }
 
@@ -69,13 +69,24 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  flex-direction: column;
+  flex-direction: row;
   padding-top: 5rem;
   border: 1px solid red;
-  background-color: gray;
+  /* background-color: gray; */
 }
 .mySkills {
   padding: 2rem 15rem 0rem 8rem;
+}
+.mySkills img {
+  display: flex;
+  width: 28rem;
+  height: 30rem;
+  justify-content: flex-end;
+}
+.mySkills ul li {
+  list-style: none;
+  padding: 2rem;
+  font-size: 2rem;
 }
 .projects {
   display: flex;
