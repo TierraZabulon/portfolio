@@ -5,7 +5,17 @@
 html {
   font-size: 62.5%;
 }
-.contentsidebar {
+
+.container {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.main h1 {
+  font-size: 9rem;
+  padding-top: 10rem;
+}
+/* .contentsidebar {
   display: flex;
   flex-wrap: wrap;
 }
@@ -68,27 +78,27 @@ section {
 .skills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row;
   padding-top: 5rem;
-  border: 1px solid red;
-  /* background-color: gray; */
-}
+
+  /* background-color: rgb(253, 241, 241); */
+/* }
 .mySkills {
   padding: 2rem 15rem 0rem 8rem;
 }
 .mySkills img {
   display: flex;
-  width: 28rem;
+  width: 25rem;
   height: 30rem;
-  justify-content: flex-end;
 }
 .mySkills ul li {
   list-style: none;
   padding: 2rem;
   font-size: 2rem;
-}
-.projects {
+} */
+
+/* .projects {
   display: flex;
   justify-content: space-around;
   padding-top: 10rem;
@@ -97,4 +107,4 @@ section {
   border: 2px solid green;
   height: 10rem;
   width: 10rem;
-}
+/* } */
