@@ -30,10 +30,13 @@ nav {
   padding-top: 15rem;
   font-size: 2rem;
 }
+.containerThree h2 {
+  text-align: center;
+  font-size: 3rem;
+}
 .skills ul {
   background-color: rgb(173, 173, 173);
-  border: 1px solid black;
-  border-radius: 5%;
+
   list-style: none;
   display: flex;
   flex-direction: row;
