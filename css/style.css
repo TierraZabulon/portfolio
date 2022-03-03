@@ -5,16 +5,34 @@
 html {
   font-size: 62.5%;
 }
-
+nav {
+  font-size: 1.9rem;
+}
 .containerTwo {
   text-align: center;
   font-size: 2rem;
+  background-color: lightblue;
+  padding-bottom: 4rem;
+  width: 100%;
+  height: 50vh;
 }
 
 .main h1 {
   font-size: 9rem;
   padding-top: 10rem;
 }
+.containerThree {
+  height: 50vh;
+  width: 50%;
+  align-items: center;
+}
+
+.containerFour {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
 /* .contentsidebar {
   display: flex;
   flex-wrap: wrap;
