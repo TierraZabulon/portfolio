@@ -5,6 +5,9 @@
 html {
   font-size: 62.5%;
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
 nav {
   font-size: 1.9rem;
 }
@@ -20,6 +23,7 @@ nav {
 .main h1 {
   font-size: 9rem;
   padding-top: 10rem;
+  font-family: "Abril Fatface", cursive;
 }
 .containerThree {
   height: 70vh;
@@ -33,10 +37,11 @@ nav {
 .containerThree h2 {
   text-align: center;
   font-size: 3rem;
+  font-family: "Abril Fatface", cursive;
 }
 .skills ul {
   background-color: rgb(173, 173, 173);
-
+  border-radius: 4%;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -53,6 +58,25 @@ nav {
   justify-content: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 15rem 5rem;
+}
+
+.containerFive {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 15rem 5rem;
+  background-color: rgb(214, 214, 214);
+}
+
+.containerFive h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+}
+.containerFive {
+  text-align: center;
 }
 
 /* .contentsidebar {
