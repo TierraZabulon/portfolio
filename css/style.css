@@ -11,6 +11,15 @@ body {
 nav {
   font-size: 1.9rem;
 }
+nav a {
+  color: white;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 2%;
+}
+nav a:hover {
+  background-color: rgb(173, 219, 234);
+}
 .containerTwo {
   text-align: center;
   font-size: 2rem;
