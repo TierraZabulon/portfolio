@@ -321,3 +321,7 @@ footer p:nth-child(2) {
   bottom: 35px;
   font-size: 14px;
 }
+h1 {
+  text-align: center;
+  padding-top: 20rem;
+}
